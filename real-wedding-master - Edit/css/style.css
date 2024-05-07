@@ -392,6 +392,7 @@ button:focus{
 	font-size: 68px;
 	font-family: 'Marck Script', cursive;
 	color: #ffffff;
+	opacity: 0.5; /* IC -- index Main Text */
 	position: relative;
 	z-index: 3;
 }
@@ -411,6 +412,7 @@ button:focus{
 	color: #dd666c;
 	font-size: 40px;
 	font-family: 'Marck Script', cursive;
+	opacity: 0.5; /* IC -- index Main Text */
 }
 .lbox-details a.btn{
 	background: #63c7bd;
