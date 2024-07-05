@@ -19,7 +19,7 @@
 
 body {
     color: #666666;
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Barlow', sans-serif;
     line-height: 1.80857;
 }
@@ -160,7 +160,8 @@ button:focus{
     right: 0;
     bottom: 0;
     left: 0;
-    background: #dd666c;
+	/* loading screen color */
+    background: #69a967;
     z-index: 11000;
     position: fixed;
     display: block;
@@ -289,12 +290,16 @@ button:focus{
 }
 
 .top-header .navbar .navbar-collapse ul li a.active{
-	background: #dd666c;
+	/* Nav buttons top */
+	/* background: #dd666c; */
+	background: #d99643;
 	color: #ffffff;
 }
 
 .top-header .navbar .navbar-collapse ul li a:hover{
-	background: #63c7bd;
+	/* Nav buttons top */
+	/* background: #63c7bd; */
+	background: #a767a9;
 	color: #ffffff;
 }
 
@@ -409,7 +414,9 @@ button:focus{
 	z-index: 3;
 }
 .lbox-details p strong{
-	color: #dd666c;
+	/* home page banner text */
+	/* color: #dd666c; */
+	color: #69a967;
 	font-size: 40px;
 	font-family: 'Marck Script', cursive;
 	opacity: 0.5; /* IC -- index Main Text */
@@ -550,11 +557,13 @@ button:focus{
 }
 
 .main-timeline-box .time-line-date-content .mbr-timeline-date{
-	background: #dd666c;
+	/*background: #dd666c;*/ /*Timeline background colors*/
+	background: #a767a9;
 	color: #ffffff;
 }
 .main-timeline-box .reverse .time-line-date-content .mbr-timeline-date{
-	background: #63c7bd;
+	/*background: #63c7bd;*/ /*Timeline background colors*/
+	background: #d99643;
 	color: #ffffff;
 }
 
@@ -683,7 +692,10 @@ button:focus{
 }
 
 .event-inner a{
-	background: #dd666c;
+	/*Home page buttons */
+	/* background: #dd666c; */
+	/* background: #69a967; */
+	background: #83893c;
 	color: #ffffff;
 	padding: 5px 10px;
 	display: inline-block;
