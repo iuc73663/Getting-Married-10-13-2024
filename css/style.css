@@ -649,7 +649,8 @@ button:focus{
 	-moz-transition: all 0.3s ease-in-out;
 }
 .gallery-box ul li a .overlay{
-	background: #dd666c;
+	/*background: #dd666c;*/ /* gallery heart */
+	background: #a767a9;
 	color: #ffffff;
 	font-size: 22px;
 	text-align: center;
@@ -808,6 +809,38 @@ select.form-control:not([size]):not([multiple]){
 }
 
 
+
+/* ATTIRE */
+.colorPallete {
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+
+	margin: 10px;
+	display: inline-block;
+}
+
+#circle_A {
+	background: red;
+}
+
+#circle_B {
+	background: blue;
+}
+
+#circle_C {
+	background: green;
+}
+
+#circle_D {
+	background: purple;
+}
+
+#circle_E {
+	background: black;
+}
 
 
 

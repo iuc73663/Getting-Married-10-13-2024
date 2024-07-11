@@ -638,7 +638,8 @@ button:focus{
 	-moz-transition: all 0.3s ease-in-out;
 }
 .gallery-box ul li a .overlay{
-	background: #dd666c;
+	/*background: #dd666c;*/ /* gallery heart */
+	background: #a767a9;
 	color: #ffffff;
 	font-size: 22px;
 	text-align: center;
@@ -681,7 +682,8 @@ button:focus{
 }
 
 .event-inner a{
-	background: #dd666c;
+	/*background: #dd666c;*/ /* gallery heart */
+	background: #a767a9;
 	color: #ffffff;
 	padding: 5px 10px;
 	display: inline-block;
