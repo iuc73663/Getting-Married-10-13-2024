@@ -796,8 +796,16 @@ select.form-control:not([size]):not([multiple]){
 
 
 
-
-
+/*------------------------------------------------------------------
+	FAQ -- CUSTOM IC
+-------------------------------------------------------------------*/
+.faqBtn span {
+	font-family: 'Marck Script', cursive;
+	font-size: 30px;
+	--bs-btn-color:black !important;
+	--bs-btn-active-color: black !important;
+	--bs-btn-hover-color: black !important;
+}
 
 
 
