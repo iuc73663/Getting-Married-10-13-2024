@@ -10,7 +10,7 @@ for (let i = 1; i <= 2; i++) {
 for (let i = 1; i <= 2; i++) { 
     for (let j = 10; j > 0; j--) { 
         const node = document.createElement("img");
-        node["src"] = 'images/404/chicken/' + j + '.jpg';
+        node["src"] = 'images/404/Chicken/' + j + '.jpg';
         document.getElementById("chicken").appendChild(node);
     }
 }
