@@ -1,0 +1,77 @@
+html, body {
+    color:White;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    overflow: scroll;
+  }
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  body {
+  background-color: black;
+  }
+  
+  #beef {
+    height: 150px;
+    bottom: 0;
+    background: blue;
+    position: absolute;
+    overflow:hidden;
+    overflow-y: hidden;
+    white-space:nowrap;
+    
+    /* added */
+    left: 0;
+    animation-name: scrollLeft;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  #beef img {
+    height: 100%;
+  }
+
+
+  #chicken {
+    height: 150px;
+    bottom: 200;
+    background: blue;
+    position: absolute;
+    overflow:hidden;
+    overflow-y: hidden;
+    white-space:nowrap;
+    
+    /* added */
+    /*left: 0;*/
+    animation-name: scrollLeft;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  #chicken img {
+    height: 100%;
+  }
+
+  @keyframes scrollLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes scrollRight {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(+5%);
+    }
+  }

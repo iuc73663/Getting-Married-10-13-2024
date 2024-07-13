@@ -823,23 +823,23 @@ select.form-control:not([size]):not([multiple]){
 }
 
 #circle_A {
-	background: red;
+	background:#AA6E87;
 }
 
 #circle_B {
-	background: blue;
+	background: #E59242;
 }
 
 #circle_C {
-	background: green;
+	background: #E7C9AE;
 }
 
 #circle_D {
-	background: purple;
+	background: #847B44;
 }
 
 #circle_E {
-	background: black;
+	background: #534B27;
 }
 
 
