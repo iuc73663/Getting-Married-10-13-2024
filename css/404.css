@@ -40,7 +40,7 @@ html, body {
 
   #chicken {
     height: 150px;
-    bottom: 200;
+    bottom: 200px;
     background: blue;
     position: absolute;
     overflow:hidden;
