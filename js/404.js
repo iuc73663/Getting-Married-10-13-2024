@@ -2,7 +2,7 @@
 for (let i = 1; i <= 2; i++) { 
     for (let j = 1; j <= 10; j++) { 
         const node = document.createElement("img");
-        node["src"] = 'images/404/beef/' + j + '.jpg';
+        node["src"] = 'images/404/beef/' + j + '.png';
         document.getElementById("beef").appendChild(node);
     }
 }
@@ -10,7 +10,7 @@ for (let i = 1; i <= 2; i++) {
 for (let i = 1; i <= 2; i++) { 
     for (let j = 10; j > 0; j--) { 
         const node = document.createElement("img");
-        node["src"] = 'images/404/Chicken/' + j + '.jpg';
+        node["src"] = 'images/404/Chicken/' + j + '.png';
         document.getElementById("chicken").appendChild(node);
     }
 }

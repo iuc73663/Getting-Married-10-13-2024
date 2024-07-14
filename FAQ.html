@@ -102,7 +102,25 @@
       </nav>
     </header>
     <!-- End header -->
-
+    <script>
+      function SendLinkByMail(href) {
+          var toEmail = "jaqwaldman@gmail.com";
+          var ccEmail = "ivan5247@gmail.com";
+          var subject= "Question about your wedding!";
+          var body = "Hi love birds! Question for ya'll...\r\n\r\n<";
+          body += window.location.href;
+          body += ">";
+          var uri = "mailto:";
+          uri += encodeURIComponent(toEmail);
+          uri += "?&cc=";
+          uri += encodeURIComponent(ccEmail);
+          uri += "&subject=";
+          uri += encodeURIComponent(subject);
+          uri += "&body=";
+          uri += encodeURIComponent(body);
+          window.open(uri);
+      }
+  </script>
     <!-- Start General FAQ -->
     <div id="top" class="top-box">
       <div class="top-a1">
@@ -118,7 +136,7 @@
                 <p>
                   We hope you'll find answers to any questions below. If you
                   still have can't find the information you are looking for,
-                  please feel free to send us an email.
+                  please feel free to send us an <a href="javascript:(function()%7BSendLinkByMail()%3B%7D)()%3B">email</a>.
                 </p>
               </div>
             </div>
