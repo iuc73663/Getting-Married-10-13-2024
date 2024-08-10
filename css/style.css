@@ -104,7 +104,7 @@ a {
 
 a,
 .btn {
-    text-decoration: none !important;
+    /* text-decoration: none !important; */
     outline: none !important;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -419,7 +419,7 @@ button:focus{
 	color: #69a967;
 	font-size: 40px;
 	font-family: 'Marck Script', cursive;
-	opacity: 0.5; /* IC -- index Main Text */
+	opacity: 0.75; /* IC -- index Main Text */
 }
 .lbox-details a.btn{
 	background: #63c7bd;
